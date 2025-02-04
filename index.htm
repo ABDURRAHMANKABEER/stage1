@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Guessing Game</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="top">
+            <h1>Guessing Game</h1>
+            <div class="target">
+                <p>Click A Button to Correctly Guess The Color In The Box</p>
+                <div data-testid="colorBox" class="target-box"></div>
+            </div>
+        </div>
+        <div class="middle">
+            <p><img class="score-icon" src="./assets/score.jpeg" alt=""> <span class="score" data-testid="score">Score:</span></p>
+            <button class="reset"><img class="restart-icon" src="./assets/restart.png" alt=""></button>
+        </div>
+        <div class="display" data-testid="gameStatus"></div>
+        <div class="instruction" data-testid="gameInstructions">
+            Make Your Guess
+        </div>
+        <div class="buttom" data-testid="colorOption">
+            <div class="grid-item">
+                <button class="btn btn-0"></button>
+                <button class="btn btn-1"></button>
+                <button class="btn btn-2"></button>
+            </div>
+            <div class="grid-item">
+                <button class="btn btn-3"></button>
+                <button class="btn btn-4"></button>
+                <button class="btn btn-5"></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js">
+    </script>
+</body>
+</html>

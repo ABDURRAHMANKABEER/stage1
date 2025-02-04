@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.top {
+    text-align: center;
+}
+.target div {
+    width: 75px;
+    height: 75px;
+    background-color: blue;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.target p {
+    line-height: 35px;
+    font-size: 15px;
+}
+.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+.middle p {
+    font-size: 20px;
+}
+.middle button {
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+.restart-icon {
+    height: 10px;
+}
+.score-icon {
+    height: 25px;
+}
+.buttom {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    place-items: center;
+}
+.grid-item {
+   display: flex;
+   gap: 10px;
+   flex-direction: column;
+}
+.btn {
+    width: 75px;
+    background-color: blue;
+    height: 75px;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    cursor: pointer;
+}
+.instruction {
+    text-align: center;
+    background: lightgray;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.green, .red {
+    
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px;
+    color: white;
+}
+.green {
+    background-color: green;
+}
+.red {
+    background-color: red;
+}
